@@ -8,8 +8,8 @@
 
     <EditText
         android:id="@+id/editTextTextName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="254dp"
+        android:layout_height="73dp"
         android:layout_marginTop="84dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -22,8 +22,8 @@
 
     <EditText
         android:id="@+id/editTextTextAge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="249dp"
+        android:layout_height="65dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Age"
