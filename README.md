@@ -107,7 +107,7 @@ protected void onCreate(Bundle savedInstanceState) {
 
 Bilder läggs i samma mapp som markdown-filen.
 
-![img.png](img.png)
+![](img.png)
 
-![img.png](img.png)
+![](img.png)
 
