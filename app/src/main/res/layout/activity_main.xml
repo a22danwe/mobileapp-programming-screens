@@ -7,21 +7,21 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextTextName"
+        android:id="@+id/editTextName"
         android:layout_width="254dp"
         android:layout_height="73dp"
         android:layout_marginTop="84dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextAge"
+        app:layout_constraintBottom_toTopOf="@+id/editTextAge"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextAge"
+        android:id="@+id/editTextAge"
         android:layout_width="249dp"
         android:layout_height="65dp"
         android:ems="10"
@@ -44,6 +44,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName"
         app:layout_constraintVertical_bias="0.731" />
 </androidx.constraintlayout.widget.ConstraintLayout>

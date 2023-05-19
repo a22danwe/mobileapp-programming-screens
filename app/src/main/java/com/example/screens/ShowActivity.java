@@ -16,8 +16,8 @@ public class ShowActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show);
-        TextViewName=findViewById(R.id.textViewName);
-        TextViewAge=findViewById(R.id.textViewAge);
+        TextViewName=findViewById(R.id.textView3);
+        TextViewAge=findViewById(R.id.textView4);
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
              name = extras.getString("Name");
